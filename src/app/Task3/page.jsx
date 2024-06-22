@@ -1,8 +1,8 @@
 "use client";
-import { urlToUrlWithoutFlightMarker } from "next/dist/client/components/app-router";
+
 import { useState } from "react";
 
-function page() {
+function Page() {
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -210,4 +210,4 @@ alert('Feedback hould be greator than 50 words')
   );
 }
 
-export default page;
+export default Page;

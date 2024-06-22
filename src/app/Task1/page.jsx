@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-function page() {
+function Page() {
   const [check, setChecked] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -132,4 +132,4 @@ setSub(true)
   );
 }
 
-export default page;
+export default Page;

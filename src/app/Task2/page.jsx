@@ -2,7 +2,7 @@
 import { urlToUrlWithoutFlightMarker } from "next/dist/client/components/app-router";
 import { useState } from "react";
 
-function page() {
+function Page() {
   const [check, setChecked] = useState(false);
   const [check2, setChecked2] = useState(false);
   const [name, setName] = useState("");
@@ -230,4 +230,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
