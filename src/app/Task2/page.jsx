@@ -69,7 +69,7 @@ function Page() {
       alert("please fill all the form");
       setSub(false);
     }
-      else if(phone.trim().length ==10 ){
+      else if(phone.trim().length !=10 ){
         alert("phone number is not valid")
         setSub(false)
     } else if (emailPattern.test(email.trim()) != true) {
