@@ -189,7 +189,7 @@ alert('Feedback hould be greator than 50 words')
           </div>
         </form>
       </div>
-    //  
+    
      {sub && (
         <div className="data">
           <div className="para-div">
